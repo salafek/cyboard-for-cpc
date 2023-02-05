@@ -10,7 +10,7 @@ Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone
 
 Unlike Symbiface II, Cyboard doesn't integrate RAM or ROM expansion for the CPC.
 
-All the integrated devices are fully compatible with the original Symbiface II so using the same [I/O port addresses](https://www.cpcwiki.eu/index.php/SYMBiFACE_II:I/O_Map_Summary).</br>
+All the integrated devices are fully compatible with the original Symbiface II thus using the same [I/O port addresses](https://www.cpcwiki.eu/index.php/SYMBiFACE_II:I/O_Map_Summary).</br>
 The interface has a [Mother X4](https://cpcrulez.fr/hardware-interface-mother_x4.htm) compatible connector.</br> 
 The CF card works in memory mode so it can be directly addressed as an 8-bit device and has no need for initialization via software.</br>
 The mouse controller is a [Microchip PIC16F84A](https://www.microchip.com/en-us/product/PIC16F84A) programmed in assembly and it is clocked by the CPCs 4MHz clock. It supports mice with 5 buttons and scroll wheel.</br>
