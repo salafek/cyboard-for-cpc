@@ -8,6 +8,19 @@ Assembly none;
 Location IC4 ;
 Device   g20v8a ;
 
+/*  This program is free software: you can redistribute it and/or modify  */
+/*  it under the terms of the GNU General Public License as published by  */
+/*  the Free Software Foundation, either version 3 of the License, or     */
+/*  (at your option) any later version.                                   */
+
+/*  This program is distributed in the hope that it will be useful,       */
+/*  but WITHOUT ANY WARRANTY; without even the implied warranty of        */
+/*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         */
+/*  GNU General Public License for more details.                          */
+
+/*  You should have received a copy of the GNU General Public License     */
+/*  along with this program.  If not, see <http://www.gnu.org/licenses/>. */
+
 /* *************** INPUT PINS *********************/
 PIN  1 = A0                      ; /*                                 */ 
 PIN  2 = A1                      ; /*                                 */ 
@@ -26,15 +39,16 @@ PIN 14 = !RD                     ; /*                                 */
 PIN 23 = !WR                     ; /*                                 */
 
 /* *************** OUTPUT PINS *********************/
-PIN 15 = CFA3	                 ; /*                                 */ 
-PIN 16 = !W5CS                   ; /*                                 */ 
-PIN 17 = !PINT                   ; /*                                 */ 
-PIN 18 = RTCAS                   ; /*                                 */ 
-PIN 19 = !RTCRW                  ; /*                                 */ 
-PIN 20 = !RTCDS                  ; /*                                 */ 
-PIN 21 = !CFLED                  ; /*                                 */ 
-PIN 22 = !CFCS                   ; /*                                 */  
+PIN 15 = CFA3                    ; /* CF card A3 line                 */ 
+PIN 16 = !W5CS                   ; /* W5100S module Chip select       */ 
+PIN 17 = !PINT                   ; /* PIC Interrupt line              */ 
+PIN 18 = RTCAS                   ; /* RTC Address Strobe              */ 
+PIN 19 = !RTCRW                  ; /* RTC Read/Write                  */ 
+PIN 20 = !RTCDS                  ; /* RTC Data Strobe                 */ 
+PIN 21 = !CFLED                  ; /* CF card activity LED            */ 
+PIN 22 = !CFCS                   ; /* CF card Chip Select             */  
 /* PIN 24 = VCC                                                       */ 
+
 
 /* Logic */
 
