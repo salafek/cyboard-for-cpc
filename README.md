@@ -9,7 +9,7 @@ Cyboard is a Symbiface II clone plus Ethernet interface for the Amstrad CPC rang
 
 All the devices are fully compatible with the original Symbiface II
 ## LICENSE
-(C) Copyright Dimitris Kefalas 2023
+Copyright (c) 2023, Dimitris Kefalas
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2, or (at your option) any later version.
 
