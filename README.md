@@ -4,7 +4,7 @@ Cyboard is a Symbiface II clone plus Ethernet interface for the Amstrad CPC rang
 - Compact Flash Card mass storage device
 - PS/2 compatible USB Mouse controller
 - Real Time Clock
-- Ethernet network
+- Ethernet controller with embedded TCP/IP stack
 - Reset button
 
 All the devices are fully compatible with the original Symbiface II
