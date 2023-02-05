@@ -1,3 +1,4 @@
+
 # Cyboard for CPC
 Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of computers.
 ## Interface main components and functions
@@ -7,7 +8,19 @@ Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of compu
 - Ethernet controller with embedded TCP/IP stack
 - Reset button
 
-All the devices are fully compatible with the original Symbiface II
+All the devices are fully compatible with the original Symbiface II.</br>
+The CF card works in memory mode so it can be directly addressed as an 8-bit device and has no need for initialization via software.</br>
+The mouse controller is a PIC16F84A programmed in assembly and it is clocked by the CPCs 4MHz clock.</br>
+The RTC module is the famous DS12887 which is also used in the original Symbiface II.</br>
+The network module is based on the WIZnet's W5100S embedded ethernet controller and works in indirect parallel bus mode.</br>
+In this mode it needs 4 addresses:
+- #FD20: MR - Common RegisterMR
+- #FD21: IDM_ARH - Upper 8 bits Offset Address Register
+- #FD22: IDM_ARL - Lower 8 bits Offset Address Register
+- #FD23: IDM_DR - 8 Bits Data Register
+
+The module that's been used in this implementation is one with an integrated 3.3V regulator but also the original WIZnet's [W5100S](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ810SMJ) and [W6100](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ610MJ) modules can be used instead, with minimum changes in the disign.
+
 ## LICENSE
 Copyright (c) 2023, Dimitris Kefalas
 
