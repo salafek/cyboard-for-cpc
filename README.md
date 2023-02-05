@@ -6,4 +6,5 @@ Cyboard is a Symbiface II clone plus Ethernet interface for the Amstrad CPC rang
 - Real Time Clock
 - Ethernet network
 - Reset button
+
 All the devices are fully compatible with the original Symbiface II
