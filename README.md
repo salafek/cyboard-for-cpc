@@ -9,6 +9,7 @@ Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of compu
 - Reset button
 
 All the devices are fully compatible with the original Symbiface II.</br>
+The interface has a MX4 compatible connector.</br> 
 The CF card works in memory mode so it can be directly addressed as an 8-bit device and has no need for initialization via software.</br>
 The mouse controller is a PIC16F84A programmed in assembly and it is clocked by the CPCs 4MHz clock.</br>
 The RTC module is the famous DS12887 which is also used in the original Symbiface II.</br>
