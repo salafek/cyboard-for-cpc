@@ -11,7 +11,7 @@ Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone
 All the integrated devices are fully compatible with the original Symbiface II so using the same addresses.</br>
 The interface has a [Mother X4](https://cpcrulez.fr/hardware-interface-mother_x4.htm) compatible connector.</br> 
 The CF card works in memory mode so it can be directly addressed as an 8-bit device and has no need for initialization via software.</br>
-The mouse controller is a [Microchip PIC16F84A](https://www.microchip.com/en-us/product/PIC16F84A) programmed in assembly and it is clocked by the CPCs 4MHz clock. It supports mice with 5 buttons and scroll wheel</br>
+The mouse controller is a [Microchip PIC16F84A](https://www.microchip.com/en-us/product/PIC16F84A) programmed in assembly and it is clocked by the CPCs 4MHz clock. It supports mice with 5 buttons and scroll wheel.</br>
 The RTC module is the famous [DS12887](https://www.analog.com/en/products/ds12887.html#product-overview) which is also used in the original Symbiface II.(variants DS12887A, DS12C887, DS12C887A can be used also)</br>
 The network module is based on the [WIZnet's W5100S](https://www.wiznet.io/product-item/w5100s/) embedded ethernet controller and works in indirect parallel bus mode.</br>
 In this mode it needs 4 addresses:
