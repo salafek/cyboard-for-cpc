@@ -8,7 +8,7 @@ Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone
 - Ethernet controller with embedded TCP/IP stack
 - Reset button
 
-Unlike Symbiface II, Cyboard doesn't integrade RAM or ROM expansion for the CPC.
+Unlike Symbiface II, Cyboard doesn't integrate RAM or ROM expansion for the CPC.
 
 All the integrated devices are fully compatible with the original Symbiface II so using the same addresses.</br>
 The interface has a [Mother X4](https://cpcrulez.fr/hardware-interface-mother_x4.htm) compatible connector.</br> 
