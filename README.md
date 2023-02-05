@@ -15,7 +15,7 @@ The mouse controller is a PIC16F84A programmed in assembly and it is clocked by 
 The RTC module is the famous DS12887 which is also used in the original Symbiface II.</br>
 The network module is based on the WIZnet's W5100S embedded ethernet controller and works in indirect parallel bus mode.</br>
 In this mode it needs 4 addresses:
-- #FD20: MR - Common RegisterMR
+- #FD20: MR - Common Register MR
 - #FD21: IDM_ARH - Upper 8 bits Offset Address Register
 - #FD22: IDM_ARL - Lower 8 bits Offset Address Register
 - #FD23: IDM_DR - 8 Bits Data Register
