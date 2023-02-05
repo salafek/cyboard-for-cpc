@@ -1,5 +1,7 @@
+
+
 # Cyboard for the Amstrad CPC
-Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of computers.</br>
+Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone with Ethernet for the Amstrad CPC range of computers.</br>
 ![Cyboard v1.1](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/cyboard-v1.1.png)
 ## Interface main components and functions
 - Compact Flash Card mass storage device
@@ -8,12 +10,12 @@ Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of compu
 - Ethernet controller with embedded TCP/IP stack
 - Reset button
 
-All the devices are fully compatible with the original Symbiface II.</br>
-The interface has a MX4 compatible connector.</br> 
+All the integrated devices are fully compatible with the original Symbiface II so using the same addresses.</br>
+The interface has a [Mother X4](https://cpcrulez.fr/hardware-interface-mother_x4.htm) compatible connector.</br> 
 The CF card works in memory mode so it can be directly addressed as an 8-bit device and has no need for initialization via software.</br>
 The mouse controller is a PIC16F84A programmed in assembly and it is clocked by the CPCs 4MHz clock.</br>
 The RTC module is the famous DS12887 which is also used in the original Symbiface II.</br>
-The network module is based on the WIZnet's W5100S embedded ethernet controller and works in indirect parallel bus mode.</br>
+The network module is based on the [WIZnet's W5100S](https://www.wiznet.io/product-item/w5100s/) embedded ethernet controller and works in indirect parallel bus mode.</br>
 In this mode it needs 4 addresses:
 - #FD20: MR - Common Register MR
 - #FD21: IDM_ARH - Upper 8 bits Offset Address Register
