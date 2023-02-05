@@ -1,4 +1,4 @@
-# Cyboard for CPC
+# Cyboard for the Amstrad CPC
 Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of computers.</br>
 ![Cyboard v1.1](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/cyboard-v1.1.png)
 ## Interface main components and functions
