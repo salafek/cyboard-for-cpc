@@ -1,6 +1,6 @@
-
 # Cyboard for CPC
-Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of computers.
+Cyboard is a Symbiface II clone with Ethernet for the Amstrad CPC range of computers.</br>
+![Cyboard v1.1](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/cyboard-v1.1.png)
 ## Interface main components and functions
 - Compact Flash Card mass storage device
 - PS/2 compatible USB Mouse controller
@@ -21,7 +21,7 @@ In this mode it needs 4 addresses:
 
 The module that's been used in this implementation is one with an integrated 3.3V regulator but also the original Wiznet's [W5100S](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ810SMJ) and [W6100](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ610MJ) modules can be used instead, with minimum changes in the design.</br>
 
-![enter image description here](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/w5100s-module.png)
+![W5100S module](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/w5100s-module.png)
 ## LICENSE
 Copyright (c) 2023, Dimitris Kefalas
 
