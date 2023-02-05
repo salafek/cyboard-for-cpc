@@ -26,7 +26,7 @@ PIN 14 = !RD                     ; /*                                 */
 PIN 23 = !WR                     ; /*                                 */
 
 /* *************** OUTPUT PINS *********************/
-PIN 15 = CFA3	                   ; /*                                 */ 
+PIN 15 = CFA3	                 ; /*                                 */ 
 PIN 16 = !W5CS                   ; /*                                 */ 
 PIN 17 = !PINT                   ; /*                                 */ 
 PIN 18 = RTCAS                   ; /*                                 */ 
