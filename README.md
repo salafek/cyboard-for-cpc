@@ -27,7 +27,13 @@ In this mode it needs 4 I/O ports:
 [The module](https://www.aliexpress.com/w/wholesale-%22W5100S-Network-Module%22-parallel.html?catId=0&initiative_id=SB_20230206005326&SearchText=%22W5100S%20Network%20Module%22%20parallel&spm=a2g0o.productlist.1000002.0) that's been used in this implementation is one with an integrated 3.3V regulator but also the original WIZnet's [W5100S](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ810SMJ) and [W6100](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ610MJ) modules can be used instead, with small changes in the design.</br>
 
 ![W5100S module](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/w5100s-module.png)
-## LICENSE
+
+## Build info
+The schematic and layout were generated with Autodesk EAGLE 9.6.2 free edition</br>
+The GAL20V8B files were generated with Atmel WinCupl 5.30.4</br>
+The PIC16F84A files were generated with Microchip MPLAB IDE 8.83</br>
+
+## License
 Copyright (c) 2023, Dimitris Kefalas
 
 Sources and CAD files in this repository are free software; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.
