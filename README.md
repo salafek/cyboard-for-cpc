@@ -1,6 +1,6 @@
 
 # Cyboard for the Amstrad CPC
-Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone with Ethernet for the [Amstrad CPC](https://www.cpcwiki.eu/index.php/CPC) range of computers.</br>
+Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone with embedded Ethernet controller for the [Amstrad CPC](https://www.cpcwiki.eu/index.php/CPC) range of computers.</br>
 ![Cyboard v1.1](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/cyboard-v1.1.png)
 ## Interface main components and functions
 - Compact Flash Card mass storage device
