@@ -1,0 +1,35 @@
+Partlist
+
+Part          Value                 Package               Digi-Key PN
+
+C1            .1uF                  C025/C320             399-9871-1-ND
+C2            .1uF                  C025/C320             399-9871-1-ND
+C3            .1uF                  C025/C320             399-9871-1-ND
+C4            .1uF                  C025/C320             399-9871-1-ND
+C5            .1uF                  C025/C320             399-9871-1-ND
+CF-ACT        LED WHITE DIFFUSED    LED3MM                1516-QBL7IW60D-CW-ND
+CF-CARD       N7E50-Q516RB-40       3M-N7E50              3M5455-ND
+CON1          CPCBUS                HEADER R/A 50POS      732-5414-ND
+D1            1N4148                DO35-7                2368-1N4148-ND
+D2            1N4148                DO35-7                2368-1N4148-ND
+IC1           PIC16F84AP            DIL18                 PIC16F84A-04I/P-ND
+IC2           74HCT21N              DIL14                 296-9262-5-ND
+IC3           74HCT244N             DIL20                 296-1610-5-ND
+IC4           GAL20V8B              DIL24-3               GAL20V8B-15LPN-ND
+IC5           DS12887A              DIL24                 DS12887+-ND
+MOUSE         87520-0012BLF         USB-A RCPT TH R/A     609-87520-0012BLF-ND
+R1            10K                   0204/0207             MFR-25FRE52-10K-ND
+R2            10K                   0204/0207             MFR-25FRE52-10K-ND
+R3            100                   0204/0207             MFR-25FRE52-100R-ND
+R4            470                   0204/0207             MFR-25FRF52-470R-ND
+R5            470                   0204/0207             MFR-25FRF52-470R-ND
+R6            470                   0204/0207             MFR-25FRF52-470R-ND
+R7            470                   0204/0207             MFR-25FRF52-470R-ND
+R8            470                   0204/0207             MFR-25FRF52-470R-ND
+R9            470                   0204/0207             MFR-25FRF52-470R-ND
+R10           470                   0204/0207             MFR-25FRF52-470R-ND
+R11           470                   0204/0207             MFR-25FRF52-470R-ND
+R12           0                     Jumper                
+R13           0                     Jumper                
+RESET         BF-3120               SWITCH TACT SPST-NO   SW407-ND
+W5100S-MODULE W5100S-NETWORK-MODULE W5100S-NETWORK-MODULE
