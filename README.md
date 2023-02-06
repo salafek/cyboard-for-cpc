@@ -22,7 +22,7 @@ In this mode it needs 4 I/O ports:
 - #FD22: IDM_ARL - Lower 8 bits Offset Address Register
 - #FD23: IDM_DR - 8 Bits Data Register
 
-The module that's been used in this implementation is one with an integrated 3.3V regulator but also the original WIZnet's [W5100S](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ810SMJ) and [W6100](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ610MJ) modules can be used instead, with small changes in the design.</br>
+[The module](https://www.aliexpress.com/w/wholesale-W5100S-Network-Module-SPI%252Fparallel-Port-Compatible.html?catId=0&initiative_id=SB_20230206004419&origin=y&SearchText=W5100S%20Network%20Module%20SPI/parallel%20Port%20Compatible&spm=a2g0o.detail.1000002.0) that's been used in this implementation is one with an integrated 3.3V regulator but also the original WIZnet's [W5100S](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ810SMJ) and [W6100](https://github.com/Wiznet/Hardware-Files-of-WIZnet/tree/master/05_Network_Module/WIZ610MJ) modules can be used instead, with small changes in the design.</br>
 
 ![W5100S module](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/w5100s-module.png)
 ## LICENSE
