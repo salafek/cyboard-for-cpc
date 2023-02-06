@@ -1,9 +1,9 @@
 ; -----------------------------------------------
 ;  PS/2 Mouse to CPC Symbiface II Mouse Converter
 ; -----------------------------------------------
-;
+;  Copyright (C) 2009 Dimitris Kefalas
 ;  Version: V1.0 (19-Mar-2009)
-;  Author : D. Kefalas <d_kef@yahoo.gr>
+;  
 ;  Based on "PS/2 Mouse to Amiga Mouse Converter" by Nevenko Baričević
 
 ;  This program is free software: you can redistribute it and/or modify
