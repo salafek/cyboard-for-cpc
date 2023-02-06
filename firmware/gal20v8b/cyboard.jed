@@ -1,8 +1,8 @@
 
 CUPL(WM)        5.0a  Serial# 60008009
 Device          g20v8as  Library DLIB-h-40-1
-Created         Sun Feb 05 16:04:07 2023
-Name            Cyboard for CPC 
+Created         Mon Feb 06 22:07:53 2023
+Name            cyboard
 Partno          01 
 Revision        01 
 Date            22/03/2019 
@@ -37,4 +37,4 @@ Location        IC4
 *L02656 11111111111111111111111111111111
 *L02688 111111111111111110
 *C30BE
-*FC57
+*F9F0
