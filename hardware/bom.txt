@@ -15,7 +15,7 @@ D2            1N4148                DO35-7                2368-1N4148-ND
 IC1           PIC16F84AP            DIL18                 PIC16F84A-04I/P-ND
 IC2           74HCT21N              DIL14                 296-9262-5-ND
 IC3           74HCT244N             DIL20                 296-1610-5-ND
-IC4           GAL20V8B              DIL24-3               GAL20V8B-15LPN-ND
+IC4           GAL20V8B              DIL24-3               2156-GAL20V8Z-15QP-ND
 IC5           DS12887A              DIL24                 DS12887+-ND
 MOUSE         87520-0012BLF         USB-A RCPT TH R/A     609-87520-0012BLF-ND
 R1            10K                   0204/0207             MFR-25FRE52-10K-ND
