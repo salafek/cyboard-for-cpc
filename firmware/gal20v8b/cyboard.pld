@@ -35,21 +35,21 @@ PIN  7 = A6                      ; /*                                 */
 PIN  8 = A7                      ; /*                                 */ 
 PIN  9 = A8                      ; /*                                 */ 
 PIN 10 = A9                      ; /*                                 */ 
-PIN 11 = A1X                     ; /*                                 */ 
+PIN 11 = A1X                     ; /*A15 & A14 & A13 & A12 & A11 & A10*/ 
 /* PIN 12 = GND                                                       */ 
 PIN 13 = !IOREQ                  ; /*                                 */ 
 PIN 14 = !RD                     ; /*                                 */ 
 PIN 23 = !WR                     ; /*                                 */
 
 /* *************** OUTPUT PINS *********************/
-PIN 15 = CFA3	                   ; /*                                  */ 
-PIN 16 = !W5CS                   ; /*                                 */ 
-PIN 17 = !PINT                   ; /*                                 */ 
-PIN 18 = RTCAS                   ; /*                                 */ 
-PIN 19 = !RTCRW                  ; /*                                 */ 
-PIN 20 = !RTCDS                  ; /*                                 */ 
-PIN 21 = !CFCSLED                ; /*                                 */ 
-PIN 22 = !CFCS                   ; /*                                 */  
+PIN 15 = CFA3                    ; /* CF card A3 line                 */
+PIN 16 = !W5CS                   ; /* W5100S module Chip select       */
+PIN 17 = !PINT                   ; /* PIC Interrupt line              */
+PIN 18 = RTCAS                   ; /* RTC Address Strobe              */
+PIN 19 = !RTCRW                  ; /* RTC Read/Write                  */
+PIN 20 = !RTCDS                  ; /* RTC Data Strobe                 */
+PIN 21 = !CFLED                  ; /* CF card activity LED            */
+PIN 22 = !CFCS                   ; /* CF card Chip Select             */
 /* PIN 24 = VCC                                                       */ 
 
 
