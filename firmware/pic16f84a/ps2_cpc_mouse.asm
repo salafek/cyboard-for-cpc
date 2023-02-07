@@ -1,8 +1,8 @@
 ; -----------------------------------------------
 ;  PS/2 Mouse to CPC Symbiface II Mouse Converter
 ; -----------------------------------------------
-;  Copyright (C) 2009 Dimitris Kefalas
-;  Version: V1.0 (19-Mar-2009)
+;  Copyright (C) 2023 Dimitris Kefalas
+;  Version: V1.0 (7-Feb-2023)
 ;  
 ;  Based on "PS/2 Mouse to Amiga Mouse Converter" by Nevenko Baričević
 
@@ -39,12 +39,13 @@ delcnt  equ     0x16		; delay counter
 rkeys   equ     0x17		; real key status
 okeys   equ     0x18		; old real key status
 
-; --------- main routine -----------
+; --------- entry point -----------
 
 	org     0
 		
 	goto	main
 
+; --------- interrupt service routine -----------
 	org	4
 		
 	movf    count,W
