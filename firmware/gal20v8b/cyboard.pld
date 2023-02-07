@@ -1,5 +1,5 @@
 /*  Cyboard for Amstrad CPC - I/O address decoding logic                  */
-/*  Copyright (C) 2019 Dimitris Kefalas                                   */
+/*  Copyright (C) 2023 Dimitris Kefalas                                   */
 
 /*  This program is free software: you can redistribute it and/or modify  */
 /*  it under the terms of the GNU General Public License as published by  */
@@ -16,7 +16,7 @@
 
 Name     cyboard;
 PartNo   01 ;
-Date     22/03/2019 ;
+Date     7/02/2023 ;
 Revision 01 ;
 Designer Dimitris Kefalas ;
 Company  ;
