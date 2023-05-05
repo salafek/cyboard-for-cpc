@@ -1,7 +1,7 @@
 
 # Cyboard for the Amstrad CPC
 Cyboard is a [Symbiface II](https://www.cpcwiki.eu/index.php/SYMBiFACE_II) clone with embedded Ethernet controller for the [Amstrad CPC](https://www.cpcwiki.eu/index.php/CPC) range of computers.</br>
-Its Ethernet controller is supported by [SymbOS](http://symbos.de) (download the network daemon [here](https://github.com/salafek/Net4CPC/tree/main/Extra))and by [KCNet utilities](https://github.com/salafek/KCNet-software-for-Net4CPC) for CP/M.</br>
+Its Ethernet controller is supported by [SymbOS](http://symbos.de) (download the network daemon [here](https://github.com/salafek/Net4CPC/tree/main/Extra)) and by [KCNet utilities](https://github.com/salafek/KCNet-software-for-Net4CPC) for CP/M.</br>
 ![Cyboard v1.1](https://github.com/salafek/cyboard-for-cpc/blob/main/pictures/cyboard-v1.1.png)
 ## Interface main components and functions
 - Compact Flash Card mass storage device
